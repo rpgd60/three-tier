@@ -1,4 +1,6 @@
 Simple Terraform AWS Example - 3 tier application with:
+
+# Architecture
 - Application Load Balancer
 - Web Servers
     - Autoscaling group 
@@ -6,7 +8,8 @@ Simple Terraform AWS Example - 3 tier application with:
 - Database layer
     - RDS MySQL
 
-
+The image below shows the target architecture.  
+![target-architecture](images/architecture.png)
 # Initial setup
 
 ## Terraform and Providers
